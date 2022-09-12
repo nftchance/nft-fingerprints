@@ -47,7 +47,6 @@ To set the fingerprint for a token, you can use the `_setFingerprint` function:
      * @param _fingerprint The fingerprint to set for the token.
      *
      * Requirements:
-     * - The caller must be the owner of the token.
      * - The fingerprint must not already exist.
      */
     function _setFingerprint(
